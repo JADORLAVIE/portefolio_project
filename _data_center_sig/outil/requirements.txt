@@ -1,0 +1,8 @@
+# Outil d'analyse Mini Data Centers — dépendances Python
+# Projet personnel, données publiques uniquement.
+
+duckdb>=1.0        # moteur SQL analytique + extensions spatial & h3
+geopandas>=0.14    # génération des données synthétiques + exports GeoParquet/GeoJSON
+shapely>=2.0       # géométries (polygones, points, lignes)
+pyproj>=3.6        # reprojection WGS84 <-> Lambert-93 (EPSG:2154)
+pyarrow>=14        # lecture/écriture Parquet

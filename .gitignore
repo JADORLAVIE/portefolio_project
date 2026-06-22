@@ -1,0 +1,5 @@
+# ALLOWLIST STRICTE — ne versionner QUE le projet _data_center_sig.
+# Le reste du portfolio local peut contenir des dossiers à NE PAS publier.
+/*
+!/.gitignore
+!/_data_center_sig/
